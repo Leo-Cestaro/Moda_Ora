@@ -1,0 +1,134 @@
+:root {
+    --large-defaut-padding: 6.5em;
+    --medium-defaut-padding: 4em;
+}
+
+body {
+    font-family: "Roboto", tahoma, arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#princiapl {
+    width: 64em;
+    margin: 1.25em auto;
+}
+
+h1,
+h2 {
+    font-family: "viaoda libre", cursive;
+    font-weight: normal;
+}
+
+.header-top {
+    display: flex;
+    background-color: rgb(58, 52, 52);
+    justify-content: space-between;
+
+}
+
+.imagem1 {
+    width: 100%;
+
+}
+
+
+.logo-tipo {
+    color: white;
+    margin: .5em 0 .5em 3em;
+}
+
+.header-nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+.header-nav li {
+    display: inline-block;
+    list-style: none;
+    margin: 0 1em 0;
+    padding: 1em;
+}
+
+.header-nav a {
+    color: #425564;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: .8em;
+    letter-spacing: .15em;
+    transition: color .3s linear;
+}
+
+.header-nav a:hover {
+
+    color: white;
+}
+
+.portfolio {
+    padding: var(--large-defaut-padding), var(--medium-defaut-padding);
+    text-align: center;
+}
+
+.portfolio h1 {
+    font-size: 2.25em;
+    color: #252525;
+    margin-top: 2.5em;
+}
+
+.portfolio p {
+    font-size: 1em;
+    color: #555;
+    line-height: 2;
+    max-width: 60em;
+    text-align: center;
+    margin: auto;
+    letter-spacing: .1em;
+}
+
+.gallery {
+    display: flex;
+    padding: var(--large-defaut-padding), var(--medium-defaut-padding);
+    color: #555;
+    justify-content: space-evenly;
+}
+
+.gallery-card {
+    text-align: center;
+    margin-top: 5em;
+}
+
+.gallery-title {
+    text-transform: uppercase;
+    letter-spacing: .15em;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.about {
+    background-color: #003d52;
+    padding: var(--large-defaut-padding);
+    color: white;
+    background-image: url(../imagens/bg_detalhe.png);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+.about h2 {
+    text-transform: uppercase;
+    font-size: 3em;
+    font-weight: normal;
+}
+
+.about p {
+    line-height: 1.5em;
+    width: 70%;
+}
+
+.rodape {
+    background-color: #0b171f;
+    padding: 1.8em;
+    font-size: .75em;
+    color: #6f8597;
+    letter-spacing: .3em;
+    text-align: center;
+}
